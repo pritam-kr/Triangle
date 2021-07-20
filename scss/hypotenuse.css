@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.344), rgba(0, 0, 0, 0.344)),url('/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hypo-container{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.hypo-container img{
+    width: 170px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.output{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hypo-container h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hypo-container form{
+    margin: 15px 0;
+}
+.hypo-container input{
+    padding: 10px;
+}
+.hypo-container input:focus{
+    outline: none;
+}
+.hypo-container button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
