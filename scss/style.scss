@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgba(0, 0, 0, 0.062);
+}
 .welcome-container{
     width: 100%;
     height: 100vh;
@@ -14,6 +17,7 @@
     top: 0;
     left: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -76,6 +80,7 @@
     align-items: center;
     padding: 5px 0;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.158);
+    background-color: #fff;
 }
 .math-container nav .user-container{
     display: flex;
@@ -94,7 +99,7 @@
 
 .triangle{
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,11 +109,19 @@
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: auto auto;
     grid-gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+}
+.triangle-method a{
+    text-decoration: none;
+    color: #fff;
 }
 .triangle-method div{
     border: 0.5px solid rgba(0, 0, 0, 0.192);
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
     width: 100px;
     height: 80px;
     display: flex;
@@ -116,5 +129,34 @@
     align-items: center;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #6C63FF;
+    transition: background-color 0.2s ease-in;
 }
 
+.triangle-method div:hover{
+    background-color: #463ee7;
+}
+
+.logout-container a{
+    color: #463ee7;
+}
+.user-container h4{
+    color: #463ee7;
+}
+
+
+/////Footer
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 ;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
