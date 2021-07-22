@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pritam Kumar" />
+    <link rel="stylesheet" href="scss/quiz.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+
+<body>
+
+    <nav>
+        <div>Questions</div>
+        <div><a href="/quiz.html"><i class="fas fa-sign-out-alt"></i></a></div>
+    </nav>
+    <div class="container">
+        <div class="auth-container">
+            <div class="user">
+                <img src="1.png" />
+                <h4>Triangle quiz</h4>
+                <input type="text" id="input-name" placeholder="Enter your name" autocomplete="off" />
+                <div class="btn-container">
+                    <button class="btn-go">Go!</button>
+                </div>
+            </div>
+
+            <div class="rules">
+                <h5>Rules:</h5>
+                <ul>
+                    <li>Enter your name?</li>
+                    <li>All questions are compulsory.</li>
+                    <li>High score is 10</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="quiz-container">
+            <form class="form-quiz">
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">1.</span> If a triangle has angles
+                        135<sup>0</sup>, 15<sup>0</sup>, 30<sup>0</sup>. Is it an obtuse
+                        triangle?</label>
+
+                    <label for="radio1" class="label"><input required type="radio" id="radio1" name="que1"
+                            value="option1" />
+                        yes</label>
+
+                    <label for="radio2" class="label"><input required type="radio" id="radio2" name="que1"
+                            value="option2" />
+                        no</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">2.</span> If a triangle has angles
+                        115<sup>0</sup>, 25<sup>0</sup>, 40<sup>0</sup>. Is it an acute
+                        triangle?</label>
+
+                    <label for="radio3" class="label"><input required type="radio" id="radio3" name="que2"
+                            value="option1" />
+                        yes</label>
+
+                    <label for="radio4" class="label"><input required type="radio" id="radio4" name="que2"
+                            value="option2" />
+                        no</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">3.</span> If a triangle has angles
+                        90<sup>0</sup>, 60<sup>0</sup>, 30<sup>0</sup>. Is it a right
+                        angle triangle?</label>
+
+                    <label for="radio5" class="label"><input required type="radio" id="radio5" name="que3"
+                            value="option1" />
+                        yes</label>
+
+                    <label for="radio6" class="label"><input required type="radio" id="radio6" name="que3"
+                            value="option2" />
+                        no</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">4.</span> A triangle has angles
+                        60<sup>0</sup>, 60<sup>0</sup>, 60<sup>0</sup>. Is it an
+                        equilateral triangle?</label>
+
+                    <label for="radio7" class="label"><input required type="radio" id="radio7" name="que4"
+                            value="option1" />
+                        yes</label>
+
+                    <label for="radio8" class="label"><input required type="radio" id="radio8" name="que4"
+                            value="option2" />
+                        no</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">5.</span> If a triangle has angles
+                        25<sup>0</sup>, 75<sup>0</sup>, 80<sup>0</sup>. Is it an acute
+                        triangle?</label>
+
+                    <label for="radio9" class="label"><input required type="radio" id="radio9" name="que5"
+                            value="option1" />
+                        yes</label>
+
+                    <label for="radio10" class="label"><input required type="radio" id="radio10" name="que5"
+                            value="option2" />
+                        no</label>
+                </div>
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">6.</span> If a triangle has 2 sides with
+                        equal lengths and 75<sup>0</sup> angle between them. What is the
+                        type of triangle?</label>
+
+                    <label for="radio11" class="label"><input required type="radio" id="radio11" name="que6"
+                            value="option1" />
+                        Equilateral</label>
+
+                    <label for="radio12" class="label"><input required type="radio" id="radio12" name="que6"
+                            value="option2" />
+                        Isosceles</label>
+
+                    <label for="radio13" class="label"><input required type="radio" id="radio13" name="que6"
+                            value="option3" />
+                        Right Angle traingle</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">7.</span> If a triangle has 2 angles of
+                        75<sup>0</sup>. What is the measure of third angle in
+                        degree?</label>
+
+                    <label for="radio14" class="label"><input required type="radio" id="radio14" name="que7"
+                            value="option1" />
+                        25</label>
+
+                    <label for="radio15" class="label"><input required type="radio" id="radio15" name="que7"
+                            value="option2" />
+                        30</label>
+
+                    <label for="radio16" class="label"><input required type="radio" id="radio16" name="que7"
+                            value="option3" />
+                        15</label>
+                </div>
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">8.</span> If a triangle has 2 sides with
+                        equal lengths and 60<sup>0</sup> angle between them. What is the
+                        type of triangle?</label>
+
+                    <label for="radio17" class="label"><input required type="radio" id="radio17" name="que8"
+                            value="option1" />
+                        Equilateral</label>
+
+                    <label for="radio18" class="label"><input required type="radio" id="radio18" name="que8"
+                            value="option2" />
+                        Isosceles</label>
+
+                    <label for="radio19" class="label"><input required type="radio" id="radio19" name="que8"
+                            value="option3" />
+                        Both</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">9.</span> The perimeter of an equilateral
+                        triangle is 15cm. What is the length of one side?</label>
+
+                    <label for="radio20" class="label"><input required type="radio" id="radio20" name="que9"
+                            value="option1" />
+                        15cm</label>
+
+                    <label for="radio21" class="label"><input required type="radio" id="radio21" name="que9"
+                            value="option2" />
+                        45cm</label>
+
+                    <label for="radio22" class="label"><input required type="radio" id="radio22" name="que9"
+                            value="option3" />
+                        5cm</label>
+                </div>
+
+                <div class="radio-div question-div">
+                    <label class="label question"><span class="serial-no">10.</span> If a triangle has sides of
+                        2cm, 3cm, 4cm, what is the type of triangle?</label>
+
+                    <label for="radio23" class="label"><input required type="radio" id="radio23" name="que10"
+                            value="option1" />
+                        Equilateral</label>
+
+                    <label for="radio24" class="label"><input required type="radio" id="radio24" name="que10"
+                            value="option2" />
+                        Isosceles</label>
+
+                    <label for="radio25" class="label"><input required type="radio" id="radio25" name="que10"
+                            value="option3" />
+                        Scalene</label>
+                </div>
+                <div class="btn-container">
+                    <button class="button" id="submit-quiz">Submit</button>
+                </div>
+            </form>
+            <div class="user-score">
+                <img src="/undraw_mathematics_4otb.svg" alt="" />
+                <h4 class="name">Pritam Kumar</h4>
+                <p>Score: <span class="Score">?</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="script/quiz.js"></script>
+</body>
+
+</html>

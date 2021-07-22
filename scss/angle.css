@@ -9,15 +9,15 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: url('/pexels-monstera-6238068\ \(1\).jpg');
+    background: url('/3.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .angle-container .angle-tri{
-    width: 700px;
+    width: 600px;
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
@@ -28,11 +28,18 @@
 }
 .angle-container .angle-tri form{
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .angle-container .angle-tri form input{
     margin: 5px;
     padding: 10px;
     transition: border 0.2s linear;
+    width: 80%;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.548);
 }
 .angle-container .angle-tri form input:focus{
     outline: none;
@@ -45,4 +52,14 @@
 .angle-container .angle-tri form .btn-container button{
     padding: 8px 15px;
     cursor: pointer;
+    border: 0.5px solid rgba(0, 0, 0, 0.548);
+    border-radius: 5px;
+}
+.message{
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.185);
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

@@ -20,11 +20,9 @@ btn.addEventListener("click", (e) => {
         console.log(sum);
 
         if (sum === 180) {
-            document.querySelector(".result").innerHTML =
-                "Yess! These angles can make a triangle";
+            document.querySelector(".result").innerHTML = `<div class="message"> Yess! These angles can make a triangle </div>`
         } else {
-            document.querySelector(".result").innerHTML =
-                "Sorry! These angles can not make a triangle";
+            document.querySelector(".result").innerHTML = `<div class="message">Sorry! These angles can not make a triangle </div>`
         }
     });
 });
