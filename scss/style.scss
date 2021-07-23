@@ -58,11 +58,18 @@ body{
     outline: none;
 }
 .user-input button{
-    padding: 5px 15px;
+    padding: 10px 25px;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.055);
+    background-color: #6C63FF;
+    transition: 0.2s all;
+    color: #fff;
 }
-
+.user-input button:hover{
+    background-color: #453eca;
+}
 /*=======================================================*/
 
 .math-container{

@@ -51,4 +51,11 @@
     cursor: pointer;
     background-color: rgb(108, 99, 255);
     color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0);
+    transition: 0.2s all;
+    border-radius: 5px;
+}
+
+.hypo-container button:hover{
+   background-color: #453eca;
 }

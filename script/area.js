@@ -39,6 +39,7 @@ btnSubmit[0].addEventListener('click', (e) => {
     result = (Number(b) * Number(h)) / 2
     showResult(result)
     document.querySelector('.result').style.display = 'flex'
+
 })
 
 btnSubmit[1].addEventListener('click', (e) => {
