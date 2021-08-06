@@ -11,18 +11,22 @@ var allAngle = [];
 btn.addEventListener("click", (e) => {
     e.preventDefault();
 
-    for (i = 0; i < angleInput.length; i++) {
-        allAngle[i] = Number(angleInput[i].value);
-    }
-    var sum = 0;
-    allAngle.map((el) => {
-        sum = sum + el;
-        console.log(sum);
+    const angleA = Number(angleInput[0].value)
+    const angleB = Number(angleInput[1].value)
+    const angleC = Number(angleInput[2].value)
 
-        if (sum === 180) {
-            document.querySelector(".result").innerHTML = `<div class="message"> Yess! These angles can make a triangle </div>`
-        } else {
-            document.querySelector(".result").innerHTML = `<div class="message">Sorry! These angles can not make a triangle </div>`
-        }
-    });
+    // console.log(angleA, angleB, angleC)
+
+    // if sum of the angle is equal to 180 then it can make a triangle
+
+    if (angleA + angleB + angleC === 180) {
+        document.querySelector(".result").innerHTML = `<div class="message"> Yess! These angles can make a triangle </div>`
+    } else {
+        document.querySelector(".result").innerHTML = `<div class="message">Sorry! These angles can not make a triangle </div>`
+    }
+
+    angleInput[0].value = ""
+    angleInput[1].value = ""
+    angleInput[2].value = ""
+
 });

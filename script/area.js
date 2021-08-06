@@ -32,6 +32,7 @@ triangleOption.forEach((each) => {
   });
 });
 
+// if lenght of two sides
 btnSubmit[0].addEventListener("click", (e) => {
   e.preventDefault();
   const b = pOneBase.value;
@@ -41,16 +42,22 @@ btnSubmit[0].addEventListener("click", (e) => {
   document.querySelector(".result").style.display = "flex";
 });
 
+// if length of three sides
 btnSubmit[1].addEventListener("click", (e) => {
   e.preventDefault();
   const b = document.querySelector("#p2-base").value;
   const h = document.querySelector("#p2-height").value;
   const hy = document.querySelector("#p2-hypo").value;
+
   const s = (Number(b) + Number(h) + Number(hy)) / 2;
+
   area = Math.sqrt(s * (s - b) * (s - h) * (s - hy));
+  // console.log(area)
   showResult(area);
   document.querySelector(".result").style.display = "flex";
 });
+
+//if you have lenght of two sides as well as angle
 
 btnSubmit[2].addEventListener("click", (e) => {
   const b = document.querySelector("#p3-base").value;
