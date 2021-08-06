@@ -15,13 +15,12 @@ questionForm.addEventListener('submit', (e) =>{
 
     // form data
     const formData = new FormData(questionForm)
-    // console.log(formData)
 
     let indx = 0;
 
     for(let entry of formData){
         if(entry[1] == correctAns[indx]){
-            // console.log(entry[1])
+             console.log(entry[1])
             // background change of question divs
             questionDivs[indx].className = 'radio-div right-ans'
             yourScore++;
